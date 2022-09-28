@@ -3,7 +3,7 @@ import "./Activities.css";
 import { useEffect, useState } from 'react';
 import Activity from '../Activity/Activity';
 
-const Activities = () => {
+const Activities = (props) => {
     // defining state for activities
     const [activities, setActivities] = useState([]);
     // fetching data using useEffect
@@ -15,13 +15,14 @@ const Activities = () => {
 
     return (
         <div className='activities'>
-            <h2>Select Today's Excercise</h2>
+            <h2>Select Today's Exercise</h2>
             {/* mapping activities and passing to activity Component */}
             <div className='activities-container'>
                 {
                     activities.map(activity => <Activity
                         key={activity.id}
                         activity={activity}
+                        exerciseTime={props.exerciseTime}
                     ></Activity>)
                 }
             </div>
