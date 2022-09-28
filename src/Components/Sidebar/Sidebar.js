@@ -5,10 +5,15 @@ import ExerciseDetails from '../ExerciseDetails/ExerciseDetails';
 import Profile from '../Profile/Profile';
 import "./Sidebar.css";
 const Sidebar = (props) => {
+    // break time state
     const [breakTime, setBreakTime] = useState(0);
+    // break time hander
     const handleBreakTime = (duration) => {
-        setBreakTime(duration);
-        setBreakTimeLocally(duration);
+        const time = parseInt(duration);
+        // time setting frontend
+        setBreakTime(time);
+        // time storing in localstorage
+        setBreakTimeLocally(time);
     }
     return (
         <div className='sidebar-container'>
