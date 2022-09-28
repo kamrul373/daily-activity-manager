@@ -4,16 +4,16 @@ import "./Activity.css";
 const Activity = (props) => {
     const { id, activity, thumb, description, duration, unit } = props.activity;
     return (
-        <div className='single-activity-container col-md-4 my-4'>
-            <div className="card single-card">
+        <div className='single-activity-container'>
+            <div className="activity-thumb">
                 <img src={thumb} alt="" />
-                <div className="card-body">
-                    <h5 className="card-title">{activity}</h5>
-                    <p className="card-text">{description.slice(0, 100)}</p>
-                    <p>Time required: <strong>{duration}{unit}</strong> </p>
-                    <div className='button-container'>
-                        <button className="btn w-100 bg-custom" type="button">Button</button>
-                    </div>
+            </div>
+            <div className="card-body">
+                <h3 className="card-title">{activity}</h3>
+                <p className="card-text">{description.slice(0, 100)}</p>
+                <p className='time'>Time required: <strong>{duration}{unit}</strong> </p>
+                <div className='button-container'>
+                    <button className="btn" type="button">Add to list</button>
                 </div>
             </div>
         </div>

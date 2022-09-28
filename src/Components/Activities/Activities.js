@@ -14,10 +14,10 @@ const Activities = () => {
     }, []);
 
     return (
-        <div className='activities-container mt-5 px-2'>
-            <h3>Select Today's Excercise</h3>
+        <div className='activities'>
+            <h2>Select Today's Excercise</h2>
             {/* mapping activities and passing to activity Component */}
-            <div className='row'>
+            <div className='activities-container'>
                 {
                     activities.map(activity => <Activity
                         key={activity.id}

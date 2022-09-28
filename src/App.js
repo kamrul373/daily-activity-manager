@@ -5,15 +5,13 @@ import Header from './Components/Header/Header';
 function App() {
   return (
     <div>
-      <div className="container">
-        <div className="row">
-          <div className="col-md-8 px-5">
-            <Header></Header>
+      <div className="grid">
+        <div className="left-area">
+          <Header></Header>
+          <Activities></Activities>
+        </div>
+        <div className='right-area'>
 
-          </div>
-          <div className="col-md-4">
-
-          </div>
         </div>
       </div>
     </div>
