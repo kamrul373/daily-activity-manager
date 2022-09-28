@@ -1,0 +1,16 @@
+.activities-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 25px;
+    row-gap: 50px;
+}
+
+.activities {
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.activities h2 {
+    color: #2F2F2F;
+    font-weight: 700;
+}
