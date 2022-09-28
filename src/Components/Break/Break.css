@@ -1,0 +1,27 @@
+.break-placeholder {
+    background-color: #F2F4FA;
+    padding: 10px;
+    border-radius: 7px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.break-placeholder span {
+    background-color: white;
+    display: inline-block;
+    font-size: 12px;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.break-placeholder span:hover {
+    background-color: #35BD99;
+    color: #FFF;
+    cursor: pointer;
+}

@@ -1,6 +1,7 @@
 import './App.css';
 import Activities from './Components/Activities/Activities';
 import Header from './Components/Header/Header';
+import Sidebar from './Components/Sidebar/Sidebar';
 
 function App() {
   return (
@@ -11,7 +12,7 @@ function App() {
           <Activities></Activities>
         </div>
         <div className='right-area'>
-
+          <Sidebar></Sidebar>
         </div>
       </div>
     </div>

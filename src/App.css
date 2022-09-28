@@ -10,5 +10,10 @@ body {
 }
 
 .left-area {
-  margin: 30px 80px 40px 80px;
+  margin: 30px 80px 30px 80px;
+}
+
+h2,
+h4 {
+  color: #191C32;
 }
