@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "activity": "Walking",
+        "thumb": "https://www.1mg.com/articles/wp-content/uploads/2019/09/morning-walk.png",
+        "description": "Morning walks tend to start and end your day in a good mood. They can also help your creativity. Studies have shown that getting up and moving helps you be more creative than sitting. Walking also helps you get better sleep, which results in an overall better mood the next morning.",
+        "duration": "30",
+        "unit": "m"
+    },
+    {
+        "id": 2,
+        "activity": "Swimming",
+        "thumb": "https://cdn.pixabay.com/photo/2016/11/22/21/43/woman-1850709_960_720.jpg",
+        "description": "Swimming as an exercise is popular as an all-around body developer and is particularly useful in therapy and as exercise for physically handicapped persons.",
+        "duration": "15",
+        "unit": "m"
+    },
+    {
+        "id": 3,
+        "activity": "Weightlifting",
+        "thumb": "https://images.unsplash.com/photo-1521804906057-1df8fdb718b7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8d2VpZ2h0bGlmdGluZ3xlbnwwfHwwfHw%3D&w=1000&q=80",
+        "description": "Weightlifting is an athletic discipline which requires lifting of heavy weights in a progressive manner. It not only tests the physical prowess of an individual but also his/her rate of force generation.",
+        "duration": "30",
+        "unit": "m"
+    },
+    {
+        "id": 4,
+        "activity": "Push Up",
+        "thumb": "https://phantom-marca.unidadeditorial.es/efa9740df47cff7f9466ea78fd720074/crop/0x93/899x599/resize/1320/f/jpg/assets/multimedia/imagenes/2022/01/19/16426036798831.jpg",
+        "description": "The push-up is a common calisthenics exercise beginning from the prone position. By raising and lowering the body using the arms, push-ups exercise the pectoral muscles, triceps",
+        "duration": "5",
+        "unit": "m"
+    },
+    {
+        "id": 5,
+        "activity": "Stretching",
+        "thumb": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/photo-of-a-man-stretching-in-the-rain-royalty-free-image-487078368-1560432297.jpg?crop=0.668xw:1.00xh;0.332xw,0&resize=480:*",
+        "description": "The push-up is a common calisthenics exercise beginning from the prone position. By raising and lowering the body using the arms, push-ups exercise the pectoral muscles, triceps",
+        "duration": "2",
+        "unit": "m"
+    },
+    {
+        "id": 6,
+        "activity": "Cardio",
+        "thumb": "https://olimpsport.com/media/mageplaza/blog/post/image//w/y/wyprobuj-5-najlepszych-cwiczen-cardio-na-silowni_5.jpg",
+        "description": "The World Health Organization recommends that whatever type of cardio exercise you choose to do, you should do it for at least 10 minutes at a time to get the most benefits from it. If you engage in moderate-intensity workouts, such as a brisk walk, then 30 minutes every day can help you reap a variety of benefits",
+        "duration": "30",
+        "unit": "m"
+    },
+    {
+        "id": 7,
+        "activity": "Indoor Cycling",
+        "thumb": "https://sp-ao.shortpixel.ai/client/to_webp,q_lossy,ret_img,w_1024,h_536/https://flawlesslyfitish.com/wp-content/uploads/2021/03/first-indoor-cycling-class-1024x536.jpg",
+        "description": "Indoor cycling, often called spinning, is a form of exercise with classes focusing on endurance, strength, intervals, high intensity (race days) and recovery, and involves using a special stationary exercise bicycle with a weighted",
+        "duration": "40",
+        "unit": "m"
+    },
+    {
+        "id": 8,
+        "activity": "Aerobics",
+        "thumb": "https://digitalsoftmedia.com/wp-content/uploads/2020/12/Aerobic-Exercise.jpg",
+        "description": "Aerobics is a form of physical exercise that combines rhythmic aerobic exercise with stretching and strength training routines with the goal of improving all elements of fitness",
+        "duration": "10",
+        "unit": "m"
+    },
+    {
+        "id": 9,
+        "activity": "Squat",
+        "thumb": "https://lmimirror3pvr.azureedge.net/static/media/25233/16e8900b-91af-40b7-835e-0016adae0db4/squat-science-960x540px.jpg",
+        "description": "A squat is a strength exercise in which the trainee lowers their hips from a standing position and then stands back up.",
+        "duration": "5",
+        "unit": "m"
+    }
+]
