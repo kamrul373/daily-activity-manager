@@ -1,14 +1,23 @@
-import React from 'react';
+import React, { useState } from 'react';
+import { setBreakTimeLocally } from '../../utilities/local';
 import Break from '../Break/Break';
 import ExerciseDetails from '../ExerciseDetails/ExerciseDetails';
 import Profile from '../Profile/Profile';
 import "./Sidebar.css";
 const Sidebar = (props) => {
+    const [breakTime, setBreakTime] = useState(0);
+    const handleBreakTime = (duration) => {
+        setBreakTime(duration);
+        setBreakTimeLocally(duration);
+    }
     return (
         <div className='sidebar-container'>
             <Profile></Profile>
-            <Break></Break>
-            <ExerciseDetails exerciseTime={props.exerciseTime}></ExerciseDetails>
+            <Break handleBreakTime={handleBreakTime}></Break>
+            <ExerciseDetails
+                exerciseTime={props.exerciseTime}
+                breakTime={breakTime}
+            ></ExerciseDetails>
         </div>
     );
 };
