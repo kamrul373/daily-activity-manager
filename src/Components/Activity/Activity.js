@@ -13,7 +13,7 @@ const Activity = (props) => {
                 <p className="card-text">{description.slice(0, 100)}</p>
                 <p className='time'>Time required: <strong>{duration}{unit}</strong> </p>
                 <div className='button-container'>
-                    <button className="btn" type="button">Add to list</button>
+                    <button onClick={() => props.exerciseTime(duration)} className="btn" type="button">Add to list</button>
                 </div>
             </div>
         </div>
