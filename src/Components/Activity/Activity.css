@@ -1,0 +1,25 @@
+.single-activity-container .single-card {
+    height: 430px;
+    position: relative;
+}
+
+.single-activity-container img {
+    width: 100%;
+    height: 150px;
+}
+
+.button-container {
+    text-align: center;
+}
+
+.bg-custom {
+    background-color: #35BD99;
+    border: 1px solid #35BD99;
+    position: absolute;
+    bottom: 0;
+}
+
+.button-container .bg-custom:hover {
+    background-color: palegreen;
+    border: 1px solid palegreen;
+}
