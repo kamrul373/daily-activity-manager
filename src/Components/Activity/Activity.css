@@ -47,6 +47,7 @@
     border: 1px solid #01523c;
 }
 
+/* Responsive */
 @media all and (max-width:768px) {
     .single-activity-container img {
         height: auto;

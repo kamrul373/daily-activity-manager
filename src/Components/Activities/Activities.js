@@ -1,12 +1,13 @@
 import React from 'react';
 import "./Activities.css";
 import { useEffect, useState } from 'react';
+// importing component
 import Activity from '../Activity/Activity';
 
 const Activities = (props) => {
     // defining state for activities
     const [activities, setActivities] = useState([]);
-    // fetching data using useEffect
+    // fetching activities using useEffect
     useEffect(() => {
         fetch("db.json")
             .then(response => response.json())

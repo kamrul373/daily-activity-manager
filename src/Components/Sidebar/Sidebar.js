@@ -1,9 +1,11 @@
 import React, { useEffect, useState } from 'react';
 import { getBreakTime, setBreakTimeLocally } from '../../utilities/local';
+import "./Sidebar.css";
+// Importing components
 import Break from '../Break/Break';
 import ExerciseDetails from '../ExerciseDetails/ExerciseDetails';
 import Profile from '../Profile/Profile';
-import "./Sidebar.css";
+
 const Sidebar = (props) => {
     // break time state
     const [breakTime, setBreakTime] = useState(0);

@@ -2,8 +2,10 @@ import React from 'react';
 import "./Activity.css";
 
 const Activity = (props) => {
+    // Destructuring props
     const { activity, thumb, description, duration, unit } = props.activity;
     return (
+        // Activity card
         <div className='single-activity-container'>
             <div className="activity-thumb">
                 <img src={thumb} alt={activity} />

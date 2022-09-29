@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import './App.css';
+// Importing Components
 import Activities from './Components/Activities/Activities';
 import Blogs from './Components/Blogs/Blogs';
 import Header from './Components/Header/Header';
@@ -17,14 +18,17 @@ function App() {
   return (
     <div>
       <div className="grid">
+        {/* Activities area */}
         <div className="left-area">
           <Header></Header>
           <Activities exerciseTime={handleExerciseTime} ></Activities>
         </div>
+        {/* sidebar area */}
         <div className='right-area'>
           <Sidebar exerciseTime={exerciseTime} ></Sidebar>
         </div>
       </div>
+      {/* Blogs area */}
       <div className="blogs-container">
         <Blogs></Blogs>
       </div>

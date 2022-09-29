@@ -9,8 +9,8 @@ const Blog = (props) => {
                 <img src={thumb} alt={title} />
             </div>
             <div className="description">
-                <p>{description1}</p>
-                <p>{description2}</p>
+                <p>{description1 ? description1 : ""}</p>
+                <p>{description2 ? description2 : ""}</p>
             </div>
         </article>
     );
