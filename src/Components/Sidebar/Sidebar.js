@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { setBreakTimeLocally } from '../../utilities/local';
+import React, { useEffect, useState } from 'react';
+import { getBreakTime, setBreakTimeLocally } from '../../utilities/local';
 import Break from '../Break/Break';
 import ExerciseDetails from '../ExerciseDetails/ExerciseDetails';
 import Profile from '../Profile/Profile';
@@ -15,6 +15,11 @@ const Sidebar = (props) => {
         // time storing in localstorage
         setBreakTimeLocally(time);
     }
+    // Getting break Time from localStorage
+    useEffect(() => {
+        const newBreakTime = getBreakTime();
+        setBreakTime(newBreakTime)
+    }, [breakTime])
     return (
         <div className='sidebar-container'>
             <Profile></Profile>

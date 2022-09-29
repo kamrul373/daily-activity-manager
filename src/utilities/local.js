@@ -2,4 +2,13 @@
 const setBreakTimeLocally = (duration) => {
     localStorage.setItem("breakTime", duration);
 }
-export { setBreakTimeLocally }
+const getBreakTime = () => {
+    let breaktTime = localStorage.getItem("breakTime");
+    if (breaktTime) {
+        breaktTime = JSON.parse(breaktTime);
+    } else {
+        breaktTime = 0;
+    }
+    return breaktTime;
+}
+export { setBreakTimeLocally, getBreakTime }
