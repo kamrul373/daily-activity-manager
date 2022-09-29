@@ -23,3 +23,13 @@ h4 {
   margin: 50px auto;
   text-align: center;
 }
+
+@media all and (max-width:768px) {
+  .grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .blogs-container {
+    width: 80%;
+  }
+}
