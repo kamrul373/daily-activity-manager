@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "title": "How Does React Work ?",
+        "thumb": "https://www.oreilly.com/library/view/learning-react-native/9781491929049/assets/lnrn_0201.png",
+        "description1": "React is a declarative, efficient, and flexible JavaScript library for building user interfaces.React splits the user interface into several components, Each component has its attribute and function.A component is essentially a user interface element. React divides the user interface into distinct, reusable components that may be handled independently.React allows you to effectively re-construct your DOM in JavaScript and push only those changes to the DOM which have actually occurred.React implements a virtual DOM that is basically a DOM tree representation in JavaScript. So when it needs to read or write to the DOM, it will use the virtual representation of it. Then the virtual DOM will try to find the most efficient way to update the browser's DOM.A virtual dom is a lightweight JavaScript object that is a copy of the real dom. When you program ui changes / events in react, it applies changes to virtual dom and then changes real dom for the virtual one. When comparing two React DOM elements of the same type, React looks at the attributes of both, keeps the same underlying DOM node, and only updates the changed attributes. Next, the render() method is called and the diff algorithm recurses on the previous result and the new result.",
+        "description2": "Let's say one of your friends posted a photograph on Facebook. Now you go and like the image and then you started checking out the comments too. Now while you are browsing over comments you see that the likes count has increased by 100, since you liked the picture, even without reloading the page. This magical count change is because of ReactJS."
+    },
+    {
+        "id": 2,
+        "title": "Difference between state and props",
+        "thumb": "https://miro.medium.com/max/1400/0*wGaUQvXc4HymloHn.jpg",
+        "description1": "Props are used to pass data from one component to another.It is Immutable (Props are read-only). Props can be used with state and functional components.",
+        "description2": "State is the local state of the component which cannot be accessed and modified outside of the component. The state of one component will often become the props of a child component.setState property is used to update the state values in the component.The change in state can happen as a response to user action or system event. It is the heart of the react component which determines the behavior of the component and how it will render. "
+    },
+    {
+        "id": 3,
+        "title": "Use of useEffect",
+        "thumb": "https://daveceddia.com/images/useEffect-hook.png",
+        "description1": "useEffect() is used for causing side effects in functional components and it is also capable for handling component.Some examples of side effects are: fetching data, directly updating the DOM,  timers,Reading from local storage,Registering and deregistering event listeners. Also Running on state change:(validating input field, live filtering, trigger animation on new array value) and Running on props change (update paragraph list on fetched API data update,updating fetched API data to get BTC updated price) ",
+        "description2": "useEffect accepts two arguments. The second argument is optional.useEffect(<function>, <dependency>)"
+    }
+]

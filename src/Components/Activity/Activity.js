@@ -2,11 +2,11 @@ import React from 'react';
 import "./Activity.css";
 
 const Activity = (props) => {
-    const { id, activity, thumb, description, duration, unit } = props.activity;
+    const { activity, thumb, description, duration, unit } = props.activity;
     return (
         <div className='single-activity-container'>
             <div className="activity-thumb">
-                <img src={thumb} alt="" />
+                <img src={thumb} alt={activity} />
             </div>
             <div className="card-body">
                 <h3 className="card-title">{activity}</h3>

@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import './App.css';
 import Activities from './Components/Activities/Activities';
+import Blogs from './Components/Blogs/Blogs';
 import Header from './Components/Header/Header';
 import Sidebar from './Components/Sidebar/Sidebar';
 
@@ -23,6 +24,9 @@ function App() {
         <div className='right-area'>
           <Sidebar exerciseTime={exerciseTime} ></Sidebar>
         </div>
+      </div>
+      <div className="blogs-container">
+        <Blogs></Blogs>
       </div>
     </div>
   );
